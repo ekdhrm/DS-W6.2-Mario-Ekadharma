@@ -43,10 +43,6 @@ QUEUED -> PENDING -> SENT
 javac LoveLetter.java
 java LoveLetter
 ```
-Then type input manually, or use a file:
-```bash
-java LoveLetter < input.txt
-```
 
 ### Test Cases
 
