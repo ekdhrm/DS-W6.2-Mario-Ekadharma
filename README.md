@@ -10,15 +10,6 @@ This assignment contains four problems that explore different applications
 of the Queue data structure, ranging from basic FIFO queues to priority queues
 and round-robin scheduling.
 
----
-
-## Q1 - A Love Letter from Gibekkk
-
-### Problem Summary
-Simulate a letter delivery service. Letters are dispatched in order of their
-priority (lower number = higher urgency). Track and display the status of every
-letter at each delivery step.
-
 ```
 DS-W6.2-MARIO-EKADHARMA/
 ├── .vscode/
@@ -39,6 +30,16 @@ DS-W6.2-MARIO-EKADHARMA/
 │       └── DiamondPark.java   # Q4: Wealth-sorted visitor queue
 └── README.md                  # This file
 ```
+
+---
+
+## Q1 - A Love Letter from Gibekkk
+
+### Problem Summary
+Simulate a letter delivery service. Letters are dispatched in order of their
+priority (lower number = higher urgency). Track and display the status of every
+letter at each delivery step.
+
 
 ### Key Data Structures
 - `PriorityQueue<Letter>` (min-heap) - drives delivery order by sendPriority
