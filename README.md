@@ -19,6 +19,27 @@ Simulate a letter delivery service. Letters are dispatched in order of their
 priority (lower number = higher urgency). Track and display the status of every
 letter at each delivery step.
 
+```
+DS-W6.2-MARIO-EKADHARMA/
+├── .vscode/
+├── bin/
+├── lib/
+├── src/
+│   ├── question1/
+│   │   └── image.png
+│   │   └── LoveLetter.java    # Q1: Priority queue delivery scheduler
+│   ├── question2/
+│   │   └── image.png
+│   │   └── Respin.java        # Q2: Data structure classifier
+│   ├── question3/
+│   │   └── image.png
+│   │   └── DoorResponse.java  # Q3: Round-robin consultation queue
+│   └── question4/
+│   │   └── image.png
+│       └── DiamondPark.java   # Q4: Wealth-sorted visitor queue
+└── README.md                  # This file
+```
+
 ### Key Data Structures
 - `PriorityQueue<Letter>` (min-heap) - drives delivery order by sendPriority
 - `ArrayList<Letter>` - registry for ordered display at each print cycle
@@ -308,7 +329,7 @@ If not, they leave entirely.
 3. Decrement their chances and print result
 4. If chances > 0: print "Try Again" and re-enqueue at the back
 5. If chances = 0: print "Get Out" and discard
-6. Repeat until queue is empty
+5. Repeat until queue is empty
 
 ### How to Compile & Run
 ```bash
@@ -394,7 +415,7 @@ Visitors with equal money can appear in any order relative to each other.
 2. For each visitor, skip if blacklisted (name == "Jeff")
 3. Insert remaining visitors into a max-heap by moneyCarried
 4. Drain the heap into a list to produce the final sorted order
-5. Print the result list
+4. Print the result list
 
 ### How to Compile & Run
 ```bash
@@ -475,24 +496,3 @@ Expected Output:
 ---
 
 ## File Structure
-
-```
-DS-W6.2-MARIO-EKADHARMA/
-├── .vscode/
-├── bin/
-├── lib/
-├── src/
-│   ├── question1/
-│   │   └── image.png
-│   │   └── LoveLetter.java    # Q1: Priority queue delivery scheduler
-│   ├── question2/
-│   │   └── image.png
-│   │   └── Respin.java        # Q2: Data structure classifier
-│   ├── question3/
-│   │   └── image.png
-│   │   └── DoorResponse.java  # Q3: Round-robin consultation queue
-│   └── question4/
-│   │   └── image.png
-│       └── DiamondPark.java   # Q4: Wealth-sorted visitor queue
-└── README.md                  # This file
-```
