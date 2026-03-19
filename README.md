@@ -1,6 +1,5 @@
 # Data Structures: Queue Assignment
-**Course:** Data Structures | **Topic:** Queue & Priority Queue  
-**Author:** Mario | **Language:** Java 21
+**Course:** Data Structures | **Topic:** Queue | **Language:** Java
 
 ---
 
