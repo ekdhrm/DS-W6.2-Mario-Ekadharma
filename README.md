@@ -10,6 +10,10 @@ This assignment contains four problems that explore different applications
 of the Queue data structure, ranging from basic FIFO queues to priority queues
 and round-robin scheduling.
 
+---
+
+## File Structure
+
 ```
 DS-W6.2-MARIO-EKADHARMA/
 ├── .vscode/
@@ -493,7 +497,3 @@ Jeff
 Expected Output:
 []
 ```
-
----
-
-## File Structure
